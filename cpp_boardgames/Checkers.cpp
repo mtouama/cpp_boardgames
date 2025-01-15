@@ -135,24 +135,71 @@ std::vector<sf::Vector2i> Checkers::getValidMovesForPiece(int row, int col) {
         directions = { {1, -1}, {1, 1} }; // Blancs : vers le bas
     }
 
-    // Vérifier les déplacements simples
+    // Pour chaque direction
     for (const auto& direction : directions) {
         int dx = direction.first;
         int dy = direction.second;
-        int newRow = row + dx;
-        int newCol = col + dy;
 
-        if (newRow >= 0 && newRow < 8 && newCol >= 0 && newCol < 8) {
-            if (board[newRow][newCol] == ' ') {
-                moves.push_back({ newRow, newCol });
+        if (isKing(row, col)) {
+            // Pour les rois, vérifier toute la diagonale
+            int currentRow = row;
+            int currentCol = col;
+            bool jumpPossible = false;
+            sf::Vector2i lastJumpPosition;
+
+            while (true) {
+                currentRow += dx;
+                currentCol += dy;
+
+                // Vérifier si on est toujours dans les limites
+                if (currentRow < 0 || currentRow >= 8 || currentCol < 0 || currentCol >= 8) {
+                    break;
+                }
+
+                // Si on rencontre une case vide
+                if (board[currentRow][currentCol] == ' ') {
+                    if (!jumpPossible) {
+                        moves.push_back({ currentRow, currentCol });
+                    }
+                }
+                // Si on rencontre une pièce
+                else {
+                    // Si c'est une pièce adverse et qu'on n'a pas encore sauté
+                    if (tolower(board[currentRow][currentCol]) != tolower(currentPlayer) && !jumpPossible) {
+                        // Vérifier si on peut sauter
+                        int jumpRow = currentRow + dx;
+                        int jumpCol = currentCol + dy;
+                        if (jumpRow >= 0 && jumpRow < 8 && jumpCol >= 0 && jumpCol < 8 &&
+                            board[jumpRow][jumpCol] == ' ') {
+                            moves.push_back({ jumpRow, jumpCol });
+                            lastJumpPosition = { jumpRow, jumpCol };
+                            jumpPossible = true;
+                            currentRow = jumpRow;
+                            currentCol = jumpCol;
+                            continue;
+                        }
+                    }
+                    break;
+                }
             }
-            else if (tolower(board[newRow][newCol]) != tolower(currentPlayer)) {
-                // Vérifier les sauts possibles
-                int jumpRow = newRow + dx;
-                int jumpCol = newCol + dy;
-                if (jumpRow >= 0 && jumpRow < 8 && jumpCol >= 0 && jumpCol < 8 &&
-                    board[jumpRow][jumpCol] == ' ') {
-                    moves.push_back({ jumpRow, jumpCol });
+        }
+        else {
+            // Pour les pions normaux, mouvement d'une case ou saut
+            int newRow = row + dx;
+            int newCol = col + dy;
+
+            if (newRow >= 0 && newRow < 8 && newCol >= 0 && newCol < 8) {
+                if (board[newRow][newCol] == ' ') {
+                    moves.push_back({ newRow, newCol });
+                }
+                else if (tolower(board[newRow][newCol]) != tolower(currentPlayer)) {
+                    // Vérifier le saut
+                    int jumpRow = newRow + dx;
+                    int jumpCol = newCol + dy;
+                    if (jumpRow >= 0 && jumpRow < 8 && jumpCol >= 0 && jumpCol < 8 &&
+                        board[jumpRow][jumpCol] == ' ') {
+                        moves.push_back({ jumpRow, jumpCol });
+                    }
                 }
             }
         }
@@ -192,32 +239,39 @@ void Checkers::makeMove(int startRow, int startCol, int endRow, int endCol) {
         return;
     }
 
+    // Sauvegarder l'état du roi
+    bool wasKing = isKing(startRow, startCol);
+
     // Effectuer le déplacement
     board[endRow][endCol] = board[startRow][startCol];
     board[startRow][startCol] = ' ';
 
-    // Capturer une pièce si c'est un saut
-    if (abs(endRow - startRow) == 2) {
+    // Calculer la direction du mouvement
+    int rowDir = (endRow - startRow) > 0 ? 1 : -1;
+    int colDir = (endCol - startCol) > 0 ? 1 : -1;
+
+    // Pour les rois qui se déplacent de plusieurs cases
+    if (wasKing && abs(endRow - startRow) >= 2) {
+        int currentRow = startRow;
+        int currentCol = startCol;
+
+        // Parcourir la diagonale jusqu'à la position finale
+        while (currentRow != endRow && currentCol != endCol) {
+            currentRow += rowDir;
+            currentCol += colDir;
+
+            // Si on trouve une pièce sur le chemin, la capturer
+            if (board[currentRow][currentCol] != ' ' &&
+                tolower(board[currentRow][currentCol]) != tolower(currentPlayer)) {
+                board[currentRow][currentCol] = ' ';
+            }
+        }
+    }
+    // Pour les pions normaux ou les sauts simples
+    else if (abs(endRow - startRow) == 2) {
         int middleRow = (startRow + endRow) / 2;
         int middleCol = (startCol + endCol) / 2;
         board[middleRow][middleCol] = ' ';
-
-        // Vérifier s'il y a d'autres sauts possibles
-        auto additionalJumps = getValidMovesForPiece(endRow, endCol);
-        bool hasMoreJumps = false;
-        for (const auto& move : additionalJumps) {
-            if (abs(move.x - endRow) == 2) {
-                hasMoreJumps = true;
-                break;
-            }
-        }
-
-
-        if (hasMoreJumps) {
-            selectedPiece = { endRow, endCol };
-            validMoves = additionalJumps;
-            return;
-        }
     }
 
     // Promotion en roi
@@ -226,8 +280,24 @@ void Checkers::makeMove(int startRow, int startCol, int endRow, int endCol) {
         board[endRow][endCol] = toupper(board[endRow][endCol]);
     }
 
-    // Changer de joueur
-    switchPlayer();
+    // Vérifier s'il y a d'autres sauts possibles
+    auto additionalJumps = getValidMovesForPiece(endRow, endCol);
+    bool hasMoreJumps = false;
+
+    for (const auto& move : additionalJumps) {
+        if (abs(move.x - endRow) >= 2) {  // >= 2 pour inclure les sauts longs des rois
+            hasMoreJumps = true;
+            break;
+        }
+    }
+
+    if (hasMoreJumps) {
+        selectedPiece = { endRow, endCol };
+        validMoves = additionalJumps;
+    }
+    else {
+        switchPlayer();
+    }
 }
 
 void Checkers::switchPlayer() {
