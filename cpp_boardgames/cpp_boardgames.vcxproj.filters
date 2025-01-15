@@ -13,6 +13,18 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Fichiers sources\Checkers">
+      <UniqueIdentifier>{2cea0472-e5c0-4ad0-af26-6cc518a6ee68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Othello">
+      <UniqueIdentifier>{23ee7c38-878b-42f5-88f8-2c281ac9af40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\TicTacToe">
+      <UniqueIdentifier>{347ff7db-928b-4705-85b8-3baefc49ccf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Puissance4">
+      <UniqueIdentifier>{836b1606-8d22-4b4e-9214-3032b3ee81c5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -45,6 +57,9 @@
       <Filter>Fichiers sources</Filter>
     </ClInclude>
     <ClInclude Include="Checkers.h">
+      <Filter>Fichiers sources</Filter>
+    </ClInclude>
+    <ClInclude Include="FontManager.h">
       <Filter>Fichiers sources</Filter>
     </ClInclude>
   </ItemGroup>

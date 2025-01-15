@@ -148,6 +148,7 @@
   <ItemGroup>
     <ClInclude Include="Checkers.h" />
     <ClInclude Include="Game.h" />
+    <ClInclude Include="FontManager.h" />
     <ClInclude Include="Othello.h" />
     <ClInclude Include="Puissance4.h" />
     <ClInclude Include="TicTacToe.h" />
