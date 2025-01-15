@@ -1,0 +1,8 @@
+﻿  Checkers.cpp
+C:\Users\minas\OneDrive\Documents\cnam\cpp_boardgames\cpp_boardgames\Checkers.cpp(72,60): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+C:\Users\minas\OneDrive\Documents\cnam\cpp_boardgames\cpp_boardgames\Checkers.cpp(72,41): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+C:\Users\minas\OneDrive\Documents\cnam\cpp_boardgames\cpp_boardgames\Checkers.cpp(86,61): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+C:\Users\minas\OneDrive\Documents\cnam\cpp_boardgames\cpp_boardgames\Checkers.cpp(86,45): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+C:\Users\minas\OneDrive\Documents\cnam\cpp_boardgames\cpp_boardgames\Checkers.cpp(100,70): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+C:\Users\minas\OneDrive\Documents\cnam\cpp_boardgames\cpp_boardgames\Checkers.cpp(100,54): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+  cpp_boardgames.vcxproj -> C:\Users\minas\OneDrive\Documents\cnam\cpp_boardgames\x64\Debug\cpp_boardgames.exe

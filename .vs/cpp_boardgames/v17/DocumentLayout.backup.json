@@ -1,0 +1,184 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\minas\\OneDrive\\Documents\\cnam\\cpp_boardgames\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4E83297A-130C-4043-B859-906751E0537A}|cpp_boardgames\\cpp_boardgames.vcxproj|C:\\Users\\minas\\OneDrive\\Documents\\cnam\\cpp_boardgames\\cpp_boardgames\\Checkers.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4E83297A-130C-4043-B859-906751E0537A}|cpp_boardgames\\cpp_boardgames.vcxproj|solutionrelative:cpp_boardgames\\Checkers.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E83297A-130C-4043-B859-906751E0537A}|cpp_boardgames\\cpp_boardgames.vcxproj|C:\\Users\\minas\\OneDrive\\Documents\\cnam\\cpp_boardgames\\cpp_boardgames\\Checkers.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4E83297A-130C-4043-B859-906751E0537A}|cpp_boardgames\\cpp_boardgames.vcxproj|solutionrelative:cpp_boardgames\\Checkers.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E83297A-130C-4043-B859-906751E0537A}|cpp_boardgames\\cpp_boardgames.vcxproj|C:\\Users\\minas\\OneDrive\\Documents\\cnam\\cpp_boardgames\\cpp_boardgames\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4E83297A-130C-4043-B859-906751E0537A}|cpp_boardgames\\cpp_boardgames.vcxproj|solutionrelative:cpp_boardgames\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E83297A-130C-4043-B859-906751E0537A}|cpp_boardgames\\cpp_boardgames.vcxproj|C:\\Users\\minas\\OneDrive\\Documents\\cnam\\cpp_boardgames\\cpp_boardgames\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4E83297A-130C-4043-B859-906751E0537A}|cpp_boardgames\\cpp_boardgames.vcxproj|solutionrelative:cpp_boardgames\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E83297A-130C-4043-B859-906751E0537A}|cpp_boardgames\\cpp_boardgames.vcxproj|C:\\Users\\minas\\OneDrive\\Documents\\cnam\\cpp_boardgames\\cpp_boardgames\\Othello.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4E83297A-130C-4043-B859-906751E0537A}|cpp_boardgames\\cpp_boardgames.vcxproj|solutionrelative:cpp_boardgames\\Othello.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E83297A-130C-4043-B859-906751E0537A}|cpp_boardgames\\cpp_boardgames.vcxproj|C:\\Users\\minas\\OneDrive\\Documents\\cnam\\cpp_boardgames\\cpp_boardgames\\TicTacToe.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4E83297A-130C-4043-B859-906751E0537A}|cpp_boardgames\\cpp_boardgames.vcxproj|solutionrelative:cpp_boardgames\\TicTacToe.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E83297A-130C-4043-B859-906751E0537A}|cpp_boardgames\\cpp_boardgames.vcxproj|C:\\Users\\minas\\OneDrive\\Documents\\cnam\\cpp_boardgames\\cpp_boardgames\\TicTacToe.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4E83297A-130C-4043-B859-906751E0537A}|cpp_boardgames\\cpp_boardgames.vcxproj|solutionrelative:cpp_boardgames\\TicTacToe.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E83297A-130C-4043-B859-906751E0537A}|cpp_boardgames\\cpp_boardgames.vcxproj|C:\\Users\\minas\\OneDrive\\Documents\\cnam\\cpp_boardgames\\cpp_boardgames\\Othello.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4E83297A-130C-4043-B859-906751E0537A}|cpp_boardgames\\cpp_boardgames.vcxproj|solutionrelative:cpp_boardgames\\Othello.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E83297A-130C-4043-B859-906751E0537A}|cpp_boardgames\\cpp_boardgames.vcxproj|C:\\Users\\minas\\OneDrive\\Documents\\cnam\\cpp_boardgames\\cpp_boardgames\\Puissance4.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4E83297A-130C-4043-B859-906751E0537A}|cpp_boardgames\\cpp_boardgames.vcxproj|solutionrelative:cpp_boardgames\\Puissance4.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E83297A-130C-4043-B859-906751E0537A}|cpp_boardgames\\cpp_boardgames.vcxproj|C:\\Users\\minas\\OneDrive\\Documents\\cnam\\cpp_boardgames\\cpp_boardgames\\Puissance4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4E83297A-130C-4043-B859-906751E0537A}|cpp_boardgames\\cpp_boardgames.vcxproj|solutionrelative:cpp_boardgames\\Puissance4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Checkers.cpp",
+              "DocumentMoniker": "C:\\Users\\minas\\OneDrive\\Documents\\cnam\\cpp_boardgames\\cpp_boardgames\\Checkers.cpp",
+              "RelativeDocumentMoniker": "cpp_boardgames\\Checkers.cpp",
+              "ToolTip": "C:\\Users\\minas\\OneDrive\\Documents\\cnam\\cpp_boardgames\\cpp_boardgames\\Checkers.cpp",
+              "RelativeToolTip": "cpp_boardgames\\Checkers.cpp",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAwwOUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-14T21:20:16.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Checkers.h",
+              "DocumentMoniker": "C:\\Users\\minas\\OneDrive\\Documents\\cnam\\cpp_boardgames\\cpp_boardgames\\Checkers.h",
+              "RelativeDocumentMoniker": "cpp_boardgames\\Checkers.h",
+              "ToolTip": "C:\\Users\\minas\\OneDrive\\Documents\\cnam\\cpp_boardgames\\cpp_boardgames\\Checkers.h",
+              "RelativeToolTip": "cpp_boardgames\\Checkers.h",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-14T21:20:02.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Othello.cpp",
+              "DocumentMoniker": "C:\\Users\\minas\\OneDrive\\Documents\\cnam\\cpp_boardgames\\cpp_boardgames\\Othello.cpp",
+              "RelativeDocumentMoniker": "cpp_boardgames\\Othello.cpp",
+              "ToolTip": "C:\\Users\\minas\\OneDrive\\Documents\\cnam\\cpp_boardgames\\cpp_boardgames\\Othello.cpp",
+              "RelativeToolTip": "cpp_boardgames\\Othello.cpp",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACEAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-14T20:59:14.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TicTacToe.h",
+              "DocumentMoniker": "C:\\Users\\minas\\OneDrive\\Documents\\cnam\\cpp_boardgames\\cpp_boardgames\\TicTacToe.h",
+              "RelativeDocumentMoniker": "cpp_boardgames\\TicTacToe.h",
+              "ToolTip": "C:\\Users\\minas\\OneDrive\\Documents\\cnam\\cpp_boardgames\\cpp_boardgames\\TicTacToe.h",
+              "RelativeToolTip": "cpp_boardgames\\TicTacToe.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-14T20:24:25.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TicTacToe.cpp",
+              "DocumentMoniker": "C:\\Users\\minas\\OneDrive\\Documents\\cnam\\cpp_boardgames\\cpp_boardgames\\TicTacToe.cpp",
+              "RelativeDocumentMoniker": "cpp_boardgames\\TicTacToe.cpp",
+              "ToolTip": "C:\\Users\\minas\\OneDrive\\Documents\\cnam\\cpp_boardgames\\cpp_boardgames\\TicTacToe.cpp",
+              "RelativeToolTip": "cpp_boardgames\\TicTacToe.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-14T20:24:12.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Game.h",
+              "DocumentMoniker": "C:\\Users\\minas\\OneDrive\\Documents\\cnam\\cpp_boardgames\\cpp_boardgames\\Game.h",
+              "RelativeDocumentMoniker": "cpp_boardgames\\Game.h",
+              "ToolTip": "C:\\Users\\minas\\OneDrive\\Documents\\cnam\\cpp_boardgames\\cpp_boardgames\\Game.h",
+              "RelativeToolTip": "cpp_boardgames\\Game.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-14T20:23:48.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Puissance4.h",
+              "DocumentMoniker": "C:\\Users\\minas\\OneDrive\\Documents\\cnam\\cpp_boardgames\\cpp_boardgames\\Puissance4.h",
+              "RelativeDocumentMoniker": "cpp_boardgames\\Puissance4.h",
+              "ToolTip": "C:\\Users\\minas\\OneDrive\\Documents\\cnam\\cpp_boardgames\\cpp_boardgames\\Puissance4.h",
+              "RelativeToolTip": "cpp_boardgames\\Puissance4.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-14T20:23:07.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Puissance4.cpp",
+              "DocumentMoniker": "C:\\Users\\minas\\OneDrive\\Documents\\cnam\\cpp_boardgames\\cpp_boardgames\\Puissance4.cpp",
+              "RelativeDocumentMoniker": "cpp_boardgames\\Puissance4.cpp",
+              "ToolTip": "C:\\Users\\minas\\OneDrive\\Documents\\cnam\\cpp_boardgames\\cpp_boardgames\\Puissance4.cpp",
+              "RelativeToolTip": "cpp_boardgames\\Puissance4.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-14T20:22:32.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\minas\\OneDrive\\Documents\\cnam\\cpp_boardgames\\cpp_boardgames\\main.cpp",
+              "RelativeDocumentMoniker": "cpp_boardgames\\main.cpp",
+              "ToolTip": "C:\\Users\\minas\\OneDrive\\Documents\\cnam\\cpp_boardgames\\cpp_boardgames\\main.cpp",
+              "RelativeToolTip": "cpp_boardgames\\main.cpp",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAswBwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-13T21:08:38.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Othello.h",
+              "DocumentMoniker": "C:\\Users\\minas\\OneDrive\\Documents\\cnam\\cpp_boardgames\\cpp_boardgames\\Othello.h",
+              "RelativeDocumentMoniker": "cpp_boardgames\\Othello.h",
+              "ToolTip": "C:\\Users\\minas\\OneDrive\\Documents\\cnam\\cpp_boardgames\\cpp_boardgames\\Othello.h",
+              "RelativeToolTip": "cpp_boardgames\\Othello.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-14T20:59:45.854Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
